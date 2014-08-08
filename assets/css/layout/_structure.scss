@@ -1,0 +1,329 @@
+/*----
+Centraliza Default
+---*/
+.center { 
+	width: 970px; 
+	margin: 0px auto; 
+}
+
+#content { 
+	float: left;
+	display: block;
+	width: 100%; 
+	/*padding: 0px 40px;*/
+	box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+#topo, #banner, #content, #footer, #header {
+	float: left;
+	display: block;
+	width: 100%;
+}
+
+#footer { 
+	height: 42px;
+	background: #000;
+}
+
+#header { position: absolute; height: 234px; }
+
+#logo { 
+	position: absolute;
+	width: 195px;
+	height: 195px;
+	margin: 18px 0 0 385px;
+	border: none;
+	outline: none;
+	/*background: url("../img/sprite.png") no-repeat 0 0;*/
+}
+
+
+/*----
+Navegação 
+----*/
+#nav {
+	float: left;
+	display: block;
+	width: 100%; 
+	margin: 20px 0 50px 0;
+}
+
+#nav > ul { 
+	width: 965px;
+	height: 190px; 
+	margin: 0px auto; 
+	padding: 75px 0 0 0;
+	background: url(../img/bgnav.png) no-repeat;
+}
+
+#nav > ul > li {
+	margin: 0px; 
+	padding: 0px;
+}
+
+#nav > ul > li { float: left; }
+
+#navMobile { display: none; }
+
+#nav > ul > li > a, .linkNav {
+	float: left;
+	height: 32px;
+	padding: 0px 13px;
+	border-radius: 6px;
+	margin: 5px 7px 0 0;
+
+	color: #664345;
+	text-decoration: none;
+	font: normal 18px/32px "Lily Script One", Lily Script One;
+}
+
+.liProd { width: 110px; }
+.linkNavProd { 	padding: 0px 23px 0 15px !important;  }
+
+.linkNav .arrow { 
+	float: right; 
+	margin: -17px -15px 0 0px; 
+}  
+
+#nav > ul > li > a:hover, .linkNavActive { 
+	/*background: #dbddde; */
+	color: #ed3d5b;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+
+#nav > ul > li:first-child > a { margin: 5px 7px 0 0; }
+
+#submenu {
+	display: none;
+	position: relative;
+	z-index: 9;
+	float: left;
+	min-width: 235px;
+	margin: 10px 0 0 0;
+	background: #f4f6f7;
+	border-radius: 6px;
+}
+
+#submenu > li { 
+	float: left; 
+	clear: both;
+	width: 100%; 
+}
+
+#submenu > li > a {
+	float: left;
+	width: 100%;
+	height: 32px;
+	padding: 0px 15px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border-bottom: 1px dotted #b5b5b5;
+
+	color: #000;
+	text-decoration: none;
+	font: normal 17px/32px "Lily Script One", Lily Script One;
+}
+
+#submenu > li:first-child > a {  
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+}
+
+#submenu > li:last-child > a {  
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+
+#submenu > li:last-child > a { border-bottom: none; }
+
+#submenu > li > a:hover {
+	background: #dbddde; 
+	-webkit-transition: background 0.3s linear;
+	-moz-transition: background 0.3s linear;
+	-ms-transition: background 0.3s linear;
+	-o-transition: background 0.3s linear;
+	transition: background 0.3s linear;
+}
+
+/*---------
+ Banner
+---------*/
+
+#banner {
+	float: left;
+	width: 100%;
+	height: 637px;
+	background: url('../img/bgbanner.jpg');
+}
+
+#bannerCarousel {
+	float: left;
+	width: 100%;
+	height: 450px;
+	text-align: center;
+	margin: 30px 0 0 0;
+	/*background: url(../img/bgbanner1.png);*/
+}
+
+#bannerCarousel h2 {
+	float: left;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	font: normal 67px/normal "Lily Script One", Lily Script One;
+}	
+
+#bannerCarousel span {
+	float: left;
+	width: 100%;
+	margin: 110px 0 0 0;
+	color: #4a4c50;
+	text-align: center;
+	font: normal 17px/normal "Lily Script One", Lily Script One;
+}
+
+/*----------- 
+ Pager 
+-------------*/
+#pager { 
+	position: absolute;
+	z-index: 99;
+	bottom: 80px;
+	width: 150px;
+	margin: 0 0 0 450px;
+}
+
+#pager > a { 
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin: 0 14px 0 0;
+	text-indent: -9999px;
+	background: url('../img/icons.png') no-repeat 0 0;
+}
+
+#pager .activeSlide { 
+	width: 16px;
+	height: 16px;
+	background: url('../img/icons.png') no-repeat 0 -22px;;
+}
+
+.prev {
+	position: absolute;
+	width: 49px;
+	height: 52px;
+	z-index: 9;
+	margin: 540px 0 0 -100px;
+	background: url('../img/icons.png') no-repeat -28px -19px;
+}
+
+.next {
+	position: absolute;
+	width: 49px;
+	height: 52px;
+	z-index: 9;
+	margin: 540px 0 0 -10px;
+	background: url('../img/icons.png') no-repeat -83px -19px;
+}
+
+#destaques {
+	float: left;
+	width: 100%;
+	height: 100%;
+	padding: 0 0 150px 0;
+	background: url(../img/bgdestaques.jpg)
+}
+
+#destaques h2 { 
+	text-align: center; 
+	margin: 100px 0 0 0;
+} 
+
+#destaques .weDo {
+	color: #ed3d5b;
+}
+
+#destaques .descTitle {
+	float: left;
+	width: 700px;
+	margin: 17px 0 0 130px; 
+	color: #8c6f71;
+	text-align: center;
+	font-style: italic;
+}
+
+.tab {
+	float: left;
+	width: 44px;
+	height: 7px;
+	margin: 37px 0px 17px 470px;
+	background: url('../img/icons.png') no-repeat -28px -7px;
+}
+
+.btnProd {
+	float: left;
+	margin: 139px 0 0 394px;
+}
+
+#prodDestaques {
+	float: left;
+	width: 100%;
+	min-width: 100px;
+}
+
+.boxDestaques {
+	float: left;
+	width: 220px;
+	height: 315px;
+	margin: 45px 25px 0 0;
+}
+
+.lastBoxDestaques { margin: 45px 0 0 0; }
+
+.tituloDestaques {
+	float: left;
+	width: 100%;
+	margin: 10px 0 0 5px;
+
+	color: #664345;
+	text-align: center;
+	text-decoration: none;
+	font: normal 22px/normal "Lily Script One", Lily Script One;
+}
+
+.descricaoDestaques {
+	float: left;
+	clear: both;
+	margin: 5px 0 0 5px;
+
+	color: #4a4c50;
+	text-align: center;
+	text-decoration: none;
+	font: normal 15px/normal "Lily Script One", Lily Script One;
+}
+
+.copy, .powered {
+	float: left;
+	margin: 0 0 0 10px;
+	color: #fff;
+	text-decoration: none;
+	font: normal 12px/42px "Lily Script One", Lily Script One;
+}
+
+.powered { float: right; margin: 0 10px 0 0; }
+
+#home {
+	float: left;
+	width: 100%;
+	height: 100%;
+	padding: 234px 0 0 0;
+	background: #c5c3c3;
+}
+
+

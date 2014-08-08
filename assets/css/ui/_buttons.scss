@@ -1,0 +1,34 @@
+/***
+BotÃµes
+***/
+.btn {
+	height: 46px;	
+	border-radius: 0px;
+	border: none;
+	background: url(../img/icons.png) no-repeat 0 -82px;;
+	
+	color: #fff;
+	cursor: pointer;
+	text-shadow: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	text-align: center;
+	font: bold 13px/46px "Lily Script One", arial ;
+}
+
+.btn-small { width: 174px; }
+
+.green { background: #5eb743; }
+.red { background: #f15050; }
+.gray { background: #2d2d2d; }
+.white { background: #fff; border: 1px solid #000; color: #000; }
+
+.red:hover { 
+	background: #e24a4a; 
+	-webkit-transition: background .9s linear;
+	-moz-transition: background .9s linear;
+	-ms-transition: background .9s linear;
+	-o-transition: background .9s linear;
+	transition: background .9s linear;
+}

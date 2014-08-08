@@ -1,0 +1,80 @@
+@media all and (max-width: 800px) and (min-width: 320px) and (orientation : portrait) { 
+
+/*----
+Navegação 
+----*/
+.center { width: 100%; overflow:hidden; }
+#header { height: auto; }
+#destaques { height: auto; min-height: 385px; overflow: hidden; }
+
+#logo {
+	float: left;
+	width: 150px;
+	height: 50px;
+	background-size: 100%;
+	margin: 23px 0 10px 10px;
+}
+
+#nav { display: none; height: auto; background: #ffffff; margin: 0px 0 0px 0; }
+#nav > ul > li { clear: both; }
+#nav > ul > li { width: 100%; }
+#nav > ul > li > a, .linkNav { 
+	width: 100%; 
+	height: 44px;
+	line-height: 44px;
+	margin: 0;
+	border-bottom: 1px solid #d5d5d5;
+	border-radius: 0px !important;
+}
+#nav > ul > li:first-child > a { margin: 0px 7px 0 0; }
+
+#submenu { 
+	width: 100%; 
+	background: #fff;
+} 
+
+#submenu > li > a {  
+	height: 44px;
+	line-height: 44px;
+	padding: 0px 40px;
+	border-bottom: none; border-radius: 0px !important; 
+}
+
+#navMobile {
+	display: block;
+	position: absolute;
+	right: 0px;
+	width: 21px;
+	height: 16px;
+	margin: 35px 30px 0 0;
+	background: url('../img/sprite.png') no-repeat -63px -77px;
+}
+
+#bannerCarousel { width: 100%; margin: 30px 0 0 0px; }
+
+.prev { 
+	margin: 240px 0 0 0;
+	left: 8%;
+}
+.next { 
+	margin: 240px 0 0 0;
+	right: 4%;
+}
+
+.boxDestaques { width: 100%; }
+
+.boxDestaques > img { 
+	float: left; 
+	width: 290px;
+	margin-left: 15%; 
+	height: auto;
+}
+
+.boxDestaques > h3, .boxDestaques > span { 
+	float: left;
+	width: 70%;
+	margin-top: 10px;
+	margin-left: 17%;
+}
+
+}

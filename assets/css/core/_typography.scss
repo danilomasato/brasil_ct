@@ -1,0 +1,62 @@
+/*a:visited, a:link { color: #1b2c49 !important; }*/
+/*****************************************************************************************************
+************************ FONTS CLASSES & TIPOGRAFIA **************************************************
+*****************************************************************************************************/
+/*@font-face {
+  font-family: 'dinRegular';
+	src: url('fonts/DINPro-Regular.svg') format('svg'),
+		 url('fonts/DINPro-Regular.woff') format('woff'),
+	     url('fonts/DINPro-Regular.eot'),
+		 url('fonts/DINPro-Regular.ttf');
+
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'dinLight';
+	src: url('fonts/DINPro-Light.svg') format('svg'),
+		 url('fonts/DINPro-Light.woff') format('woff'),
+	     url('fonts/DINPro-Light.eot'),
+		 url('fonts/DINPro-Light.ttf');
+
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'dinBold';
+	src: url('fonts/DINPro-Bold.svg') format('svg'),
+		 url('fonts/DINPro-Bold.woff') format('woff'),
+	     url('fonts/DINPro-Bold.eot'),
+		 url('fonts/DINPro-Bold.ttf');
+
+
+  font-weight: normal;
+  font-style: normal;
+}*/
+
+.title {
+	color: #664345;
+	text-transform: uppercase;
+	text-decoration: none;
+	font: normal 56px/35px "Lily Script One", Arial;
+}
+
+.subtitulos{
+	color: #6d7681;
+	font: normal 19px/normal "bmw", arial !important;
+	font: normal 19px/normal "bmw", arial\0/ !important;
+}
+
+.textos{
+  color: #6d7681;
+  font: normal 16px/19px "bmw", Helvetica, Arial, sans-serif;
+}
+
+.descricao{
+  color: #666666;
+  font: normal 12px/17px "Arial", Helvetica, Arial, sans-serif;
+}
